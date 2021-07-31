@@ -1,0 +1,30 @@
+@use '../util/' as *;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem 2rem 2rem;
+  font-size: 1.5rem;
+
+  @include breakpoint-down(small) {
+    font-size: 1.5rem;
+    display: block;
+
+    div:not(:last-child) {
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  span:not(:last-child) {
+    padding-right: 1.5rem;
+  }
+}
+
+#Layer_1 {
+  width: 50px;
+  stroke-width: 3px;
+
+  @include breakpoint-down(small) {
+    width: 30px;
+  }
+}

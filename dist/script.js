@@ -1,0 +1,2 @@
+"use strict";function myClock(){setTimeout((function(){var e=(new Date).toLocaleTimeString("it-IT");document.getElementById("clock").innerHTML=e,myClock()}),1e3)}function myDate(){setTimeout((function(){var e=new Date,t=(new Date(2019,1,1,1,1,1),e.toLocaleDateString("en-US",{weekday:"long",year:"numeric",month:"long",day:"numeric"}));document.getElementById("date").innerHTML=t,myDate()}))}console.log("I love yolk"),myClock(),myDate();
+//# sourceMappingURL=script.js.map
