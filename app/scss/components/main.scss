@@ -18,9 +18,32 @@
 .main {
   flex: 1;
 
-  &__about {
+  div {
     //max-width: 950px;
     margin: 2rem 2rem 0 2rem;
+  }
+
+  .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //font-size: 1.65rem;
+    min-height: 3.75rem;
+    border-bottom: solid 1px var(--white);
+
+    .title {
+      flex-grow: 2;
+    }
+
+    .type {
+      min-width: 15rem;
+      text-align: right;
+    }
+
+    .year {
+      min-width: 8rem;
+      text-align: right;
+    }
   }
 }
 
