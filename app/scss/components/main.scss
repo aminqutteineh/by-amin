@@ -154,12 +154,4 @@
       display: none;
     }
   }
-
-  &__social {
-    grid-column: span 2;
-
-    @include breakpoint-down(small) {
-      display: none;
-    }
-  }
 }
